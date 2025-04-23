@@ -1,0 +1,58 @@
+.setupbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setupcontainer{
+    width: 100%;
+    max-width: 500px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 20px;
+    border: 3px solid #34c8f6;
+}
+.setupbox input{
+    background-color: black;
+    padding: 15px 20px ;
+    width: 100%;
+    color: white;
+    border: none;
+    border-left: 1PX solid #34c8f6;
+    font-size: 23px;
+}
+.switchButttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contentBox{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.singlePlayer{
+    padding: 20px 20px;
+    font-size: 23px; 
+    border: none;
+    background-color: rgb(34, 34, 34);   
+    color: white;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+}
+.multiPlayer{
+    padding: 20px 20px;
+    font-size: 23px; 
+    border: none;
+    background-color: black;   
+    color: white;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.submitButton{
+    margin-top: 20px;
+    padding:20px;
+    font-size: 23px;
+    font-weight: 700;
+background-color: #34c8f6;
+cursor: pointer;
+}
